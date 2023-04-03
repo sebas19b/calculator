@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: black;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#calculator{
+    max-width: 560px;
+    background-color: white;
+}
+button{
+    width: calc(25% - 10px);
+    height: 50%;
+
+}
